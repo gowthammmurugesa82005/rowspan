@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colspan and Rowspan Example</title>
+</head>
+<body>
+
+<table border="1">
+    <tr>
+        <th>Header 1</th>
+        <th>Header 2</th>
+        <th>Header 3</th>
+        <th>Header 4</th>
+    </tr>
+    <tr>
+        <td rowspan="2">Rowspan Example</td>  <!-- This cell spans 2 rows -->
+        <td>Cell 2</td>
+        <td colspan="2">Colspan Example</td>  <!-- This cell spans 2 columns -->
+    </tr>
+    <tr>
+        <td>Cell 5</td>
+        <td>Cell 6</td>
+    </tr>
+    <tr>
+        <td>Cell 7</td>
+        <td colspan="3">Colspan across 3 columns</td>
+    </tr>
+</table>
+
+</body>
+</html>
